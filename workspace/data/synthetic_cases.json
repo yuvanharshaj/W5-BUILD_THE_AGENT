@@ -1,0 +1,133 @@
+{
+  "dataset_name": "Synthetic Clinical Reasoning Education Dataset",
+  "version": "1.0",
+  "notice": "All cases and candidate explanations in this dataset are fictional and intended only for educational AI-agent demonstration.",
+  "cases": [
+    {
+      "id": "CASE-001",
+      "title": "Synthetic Fever and Respiratory Case",
+      "symptoms": [
+        "fever",
+        "cough",
+        "fatigue"
+      ],
+      "observations": [
+        "mild respiratory symptoms",
+        "short symptom duration"
+      ],
+      "candidate_conditions": [
+        {
+          "name": "Synthetic Candidate A",
+          "prior_probability": 0.45,
+          "evidence_weights": {
+            "fever": 0.80,
+            "cough": 0.70,
+            "fatigue": 0.60
+          }
+        },
+        {
+          "name": "Synthetic Candidate B",
+          "prior_probability": 0.35,
+          "evidence_weights": {
+            "fever": 0.50,
+            "cough": 0.90,
+            "fatigue": 0.40
+          }
+        },
+        {
+          "name": "Synthetic Candidate C",
+          "prior_probability": 0.20,
+          "evidence_weights": {
+            "fever": 0.30,
+            "cough": 0.30,
+            "fatigue": 0.80
+          }
+        }
+      ]
+    },
+    {
+      "id": "CASE-002",
+      "title": "Synthetic Fatigue and Sleep Case",
+      "symptoms": [
+        "fatigue",
+        "difficulty concentrating",
+        "irregular sleep"
+      ],
+      "observations": [
+        "recent change in sleep schedule",
+        "no other supplied abnormal observations"
+      ],
+      "candidate_conditions": [
+        {
+          "name": "Synthetic Candidate A",
+          "prior_probability": 0.40,
+          "evidence_weights": {
+            "fatigue": 0.80,
+            "difficulty concentrating": 0.70,
+            "irregular sleep": 0.90
+          }
+        },
+        {
+          "name": "Synthetic Candidate B",
+          "prior_probability": 0.35,
+          "evidence_weights": {
+            "fatigue": 0.60,
+            "difficulty concentrating": 0.50,
+            "irregular sleep": 0.30
+          }
+        },
+        {
+          "name": "Synthetic Candidate C",
+          "prior_probability": 0.25,
+          "evidence_weights": {
+            "fatigue": 0.40,
+            "difficulty concentrating": 0.80,
+            "irregular sleep": 0.20
+          }
+        }
+      ]
+    },
+    {
+      "id": "CASE-003",
+      "title": "Synthetic Digestive Symptom Case",
+      "symptoms": [
+        "abdominal discomfort",
+        "nausea",
+        "reduced appetite"
+      ],
+      "observations": [
+        "short symptom duration",
+        "no additional synthetic observations"
+      ],
+      "candidate_conditions": [
+        {
+          "name": "Synthetic Candidate A",
+          "prior_probability": 0.45,
+          "evidence_weights": {
+            "abdominal discomfort": 0.80,
+            "nausea": 0.70,
+            "reduced appetite": 0.60
+          }
+        },
+        {
+          "name": "Synthetic Candidate B",
+          "prior_probability": 0.30,
+          "evidence_weights": {
+            "abdominal discomfort": 0.50,
+            "nausea": 0.80,
+            "reduced appetite": 0.70
+          }
+        },
+        {
+          "name": "Synthetic Candidate C",
+          "prior_probability": 0.25,
+          "evidence_weights": {
+            "abdominal discomfort": 0.30,
+            "nausea": 0.40,
+            "reduced appetite": 0.90
+          }
+        }
+      ]
+    }
+  ]
+}
