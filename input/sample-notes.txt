@@ -1,0 +1,8 @@
+Operating Systems (VTU Module 1)
+- OS is a program that acts as an interface between the user and the computer hardware.
+- Controls the execution of all kinds of programs.
+- Main functions: Memory Management, Processor Management, Device Management, File Management, Security.
+- Batch OS: Users do not interact directly with the computer. Each user prepares their job on an off-line device like punch cards.
+- Time-Sharing OS: Enables many people, located at various terminals, to use a particular computer system at the same time.
+- Distributed OS: Use multiple central processors to serve multiple real-time applications and multiple users.
+- Network OS: Runs on a server and provides the capability to manage data, users, groups, security, applications, etc.
